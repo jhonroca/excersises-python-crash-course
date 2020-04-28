@@ -82,3 +82,8 @@ favorite_places = {
 }
 for name, places in favorite_places.items():
     print(f"\t{name.title()}, le gusta ir a {places}!")
+
+
+print("hola mundo!!!")
+
+print("hola jeropas!!!")
