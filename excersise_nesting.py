@@ -92,7 +92,7 @@ print("como estan amigos")
 
 print("duermen mis niñas")
 
-# 6.10 FAVORITE NUMBERS
+# 6.11 CITIES
 
 cities = {
     'lima': {
@@ -122,3 +122,12 @@ for city, city_info in cities.items():
     print(f"\tCountry: {country.title()}")
     print(f"\tPopulation: {population.title()}")
     print(f"\tEcho: {echo.title()}")
+
+# FAVORITE NUMBERS
+favorite_numbers = {
+    'paul': '10',
+    'melissa': '7',
+    'vale': '9',
+    'ariana': '2',
+    'margaracha': '60',
+}
