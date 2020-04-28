@@ -94,3 +94,22 @@ print("duermen mis niñas")
 
 # 6.10 FAVORITE NUMBERS
 
+cities = {
+    'lima': {
+        'country': 'peru',
+        'population': '30 millones',
+        'echo': 'rusia 2018',
+    },
+
+    'new york': {
+        'country': 'eeuu',
+        'population': '230 millones',
+        'echo': 'torres gemelas',
+    },
+
+    'berlin': {
+        'country': 'alemania',
+        'population': '100 millones',
+        'echo': 'holocausto',
+    },
+}
