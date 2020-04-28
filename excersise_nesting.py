@@ -113,3 +113,12 @@ cities = {
         'echo': 'holocausto',
     },
 }
+for city, city_info in cities.items():
+    print(f"\nCity: {city}")
+    country = city_info['country']
+    population = city_info['population']
+    echo = city_info['echo']
+
+    print(f"\tCountry: {country.title()}")
+    print(f"\tPopulation: {population.title()}")
+    print(f"\tEcho: {echo.title()}")
