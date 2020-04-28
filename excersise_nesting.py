@@ -125,9 +125,13 @@ for city, city_info in cities.items():
 
 # FAVORITE NUMBERS
 favorite_numbers = {
-    'paul': '10',
-    'melissa': '7',
-    'vale': '9',
-    'ariana': '2',
+    'paul': ['10', '4'],
+    'melissa': ['7', '5'],
+    'vale': ['9', '2', '8'],
+    'ariana': ['2', '1', '0'],
     'margaracha': '60',
 }
+for name, numbers in favorite_numbers.items():
+    print(f"\n{name.title()}'s favorite numbers are:")
+    for number in numbers:
+        print(f"\t{number.title()}")
