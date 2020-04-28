@@ -87,3 +87,5 @@ for name, places in favorite_places.items():
 print("hola mundo!!!")
 
 print("hola jeropas!!!")
+
+print("como estan amigos")
