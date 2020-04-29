@@ -129,7 +129,7 @@ favorite_numbers = {
     'melissa': ['7', '5'],
     'vale': ['9', '2', '8'],
     'ariana': ['2', '1', '0'],
-    'margaracha': '60',
+    'margaracha': ['60'],
 }
 for name, numbers in favorite_numbers.items():
     print(f"\n{name.title()}'s favorite numbers are:")
